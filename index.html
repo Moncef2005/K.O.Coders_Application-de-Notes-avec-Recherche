@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="successMessage" class="success-message" style="display: none;"></div>
+        <h1 class="title">Notes</h1>
+        <div class="form-container">
+            <input type="hidden" id="editId">
+            <input type="text" id="noteTitle" class="input-field" placeholder="Titre de la note">
+            <textarea id="noteContent" class="input-field" placeholder="Contenu de la note"></textarea>
+            <div class="button-container">
+                <button id="saveNote" class="save-button">Enregistrer</button>
+                <button id="clearForm" class="cancel-button">Annuler</button>
+            </div>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Rechercher une note...">
+            <select id="dateFilter" class="filter-select">
+                <option value="all">Toutes les dates</option>
+                <option value="week">Cette semaine</option>
+                <option value="month">Ce mois</option>
+            </select>
+        </div>
+        
+        <div id="notesList" class="notes-grid"></div>
+    </div>
+    
+    <!-- message de confirmation de supprimer la note -->
+    <div id="deleteModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h3>Confirmer la suppression</h3>
+            <p>Êtes-vous sûr de vouloir supprimer cette note ? </p>
+            <div class="modal-buttons">
+                <button id="confirmDeleteBtn" class="save-button">Supprimer</button>
+                <button id="cancelDeleteBtn" class="cancel-button">Annuler</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- message de confirmation de modifier  la note -->
+    <div id="modifyModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h3>Confirmer la modification</h3>
+            <p>Êtes-vous sûr de vouloir enregistrer les modifications de cette note ?</p>
+            <div class="modal-buttons">
+                <button id="confirmModifyBtn" class="save-button">Confirmer</button>
+                <button id="cancelModifyBtn" class="cancel-button">Annuler</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
