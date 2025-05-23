@@ -168,7 +168,7 @@ body {
     margin-top: 1rem;
 }
 .success-message {
-    color: #19ff04; 
+    color: rgb(25, 196, 25); 
     font-weight: bold;
     padding: 0.75rem;
     text-align: center;
