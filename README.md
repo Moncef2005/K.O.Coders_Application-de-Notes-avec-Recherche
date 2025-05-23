@@ -1,11 +1,11 @@
 # Application de Gestion de Notes
-Cette application web permet de créer, modifier, supprimer et rechercher des notes, avec une interface moderne et une gestion persistante via `localStorage`.
+Cette application web permet de créer, modifier, supprimer et rechercher des notes, avec une interface moderne et une gestion persistante via localStorage.
 
 ## Fichiers
 
-- `index.html` : Structure HTML de l'application.
-- `style.css` : Feuilles de style pour l'apparence de l'application.
-- `script.js` : Code JavaScript pour la logique de gestion des notes.
+- index.html : Structure HTML de l'application.
+- style.css : Feuilles de style pour l'apparence de l'application.
+- script.js : Code JavaScript pour la logique de gestion des notes.
 
 ## Fonctionnalités
 
@@ -32,11 +32,11 @@ Cette application web permet de créer, modifier, supprimer et rechercher des no
    - Clone ou télécharge le dossier contenant les fichiers.
 
 2. **Ouvrir l'application** :
-   - Lance le fichier `index.html` dans ton navigateur.
+   - Lance le fichier index.html dans ton navigateur.
 
 3. **Utilisation** :
    - Remplis le formulaire pour créer une note.
-     - Utilise les boutons `Modifier` et `Supprimer` sur chaque note.
+     - Utilise les boutons Modifier et Supprimer sur chaque note.
    - Recherche une note dans la barre de recherche.
    - Applique un filtre de date si nécessaire.
 
