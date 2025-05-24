@@ -26,6 +26,20 @@ Cette application web permet de créer, modifier, supprimer et rechercher des no
 - JavaScript (vanilla)
 - `localStorage` pour la sauvegarde des données
 
+## Aperçu de l'application
+
+### Interface de création de note
+
+![Ajout d'une note](images/Ajouter.png)
+
+### Recherche d'une note
+
+![Recherche de note](images/Recherche.png)
+
+### Filtrage par date
+
+![Filtrage des notes](images/Filtrage.png)
+
 ## Instructions d'utilisation
 
 1. **Télécharger le projet**:
